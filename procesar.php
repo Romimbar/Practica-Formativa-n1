@@ -5,6 +5,6 @@ $data = json_decode($raw, true);
 
 // Responder con los datos recibidos
 echo "ok" . "\n";
-echo "Usuario: " . $data["usuario"] . "\n";
+echo "Usuario Nuevo: " . $data["usuario"] . "\n";
 echo "Password: " . $data["password"] . "\n";
 ?>
